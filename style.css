@@ -1,0 +1,88 @@
+*{
+    background-color: rgb(43, 58, 58);
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: rgb(124, 181, 231);
+}
+#timemain{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(34, 30, 30);
+}
+.main{
+    cursor:pointer;
+}
+#timehello{
+    width: 180px;
+    rotate: 0deg;
+    margin-top: 150px;
+    margin-left: 720px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color:  rgb(43, 58, 58);
+}
+#hello{
+    width: 150px;
+    color: rgb(235, 109, 105);
+    rotate: 15deg;
+    padding: 0px;
+    font-size: 45px;
+    background:rgb(29, 39, 39) ;
+    font-family: 'Edu TAS Beginner';
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 5px 10px 2px -2px rgb(10, 9, 9);
+}
+#hello:hover{
+    font-size: 52px;
+    padding: 12px;
+    margin-right: 0px;
+    margin-left: 5px;
+    background-color: rgb(22, 22, 22);
+    rotate: 5deg;
+}
+#power{
+    background-color: rgb(34, 30, 30);
+    font-family: 'Edu TAS Beginner';
+    width: cover;
+    font-size: 25px;
+    color: aqua;
+    margin: 10px;
+    padding:15px;
+}
+#power:hover{
+    font-size: 30px ;
+    border-top-left-radius: 10px;
+    transition: 0.5s;
+    width: 100%;
+    background-color:rgb(26, 22, 22) ;
+}
+#time{
+    transition: 0.5s;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 900px;
+    font-size: 120px;
+    font-family: 'Bricolage Grotesque';
+    margin: 0px;
+}
+#time:hover{
+    font-size: 150px;
+    rotate:3.5deg;
+    margin: 15px;
+    background-color: rgb(124, 181, 231);
+    color: rgb(34, 30, 30);
+    box-shadow: 6px 10px 4px  rgb(10, 9, 9);
+}
+#search{
+    margin: 10px;
+    padding: 20px;
+    background: rgb(253, 251, 251);
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+
+}
