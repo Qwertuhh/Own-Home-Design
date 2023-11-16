@@ -49,16 +49,19 @@ body{
     width: cover;
     font-size: 25px;
     color: aqua;
-    margin: 10px;
+    margin: 35px;
     padding:15px;
-    rotate: 1deg;
+    rotate: 0deg;
+    position: relative;
 }
 #power:hover{
     font-size: 30px ;
+    position: relative;
     border-top-left-radius: 10px;
     transition: 0.5s;
     width: 950px;
-    rotate: 5deg;
+    rotate: -5deg;
+    margin: 5px;
     background-color:rgb(26, 22, 22) ;
 }
 #time{
@@ -70,12 +73,13 @@ body{
     font-size: 120px;
     font-family: 'Bricolage Grotesque';
     margin: 0px;
-    border-radius: 25px;
 }
 #time:hover{
+    position: relative;
+    border-radius: 25px;
     font-size: 150px;
     rotate:3.5deg;
-    margin: 15px;
+    margin: 10px;
     background-color: rgb(124, 181, 231);
     color: rgb(34, 30, 30);
     box-shadow: 6px 10px 4px  rgb(10, 9, 9);
